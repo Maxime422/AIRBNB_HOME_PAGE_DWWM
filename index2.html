@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="border-t-1 border-gray-300">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col place-content-between">
+    <header class="bg-gray-200 place-content-between flex p-4 font-bold">
+        <a href="#">
+            <span>Jean Castex</span>
+        </a>
+        <a href="#">Accueil</a>
+    </header>
+
+    <main class=" text-center">
+        <section class="flex flex-col gap-6 m-12 items-center">
+            <h1 class="font-bold text-3xl">Lorem ipsum</h1>
+            <span class="text-xl">Lorem ipsum</span>
+            <img class="bg-cyan-400 shadow-[-12px_0_35px_rgba(63,230,255,8)] rounded-full" src="telechargement.jpg" alt="">
+
+            <p class="w-120 mt-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, excepturi. Nisi aspernatur laborum corrupti cumque nobis esse aperiam dolores est quas adipisci! Perspiciatis nobis aperiam libero cum tempora, illo deleniti. Lorem ipsum dolor sit.</p>
+            <div class="w-20 bg-blue-800 h-1">
+            </div>
+        </section>
+
+        <section class="flex gap-4 mx-20 items-start justify-start" >
+            <article class="flex flex-col justify-center items-center gap-4">
+                <img class=" h-16 w-16 rounded-full bg-blue-200" src="#" alt="">
+            </img>
+                <h3 class="text-xl font-semibold">Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur autem cumque sed et perspiciatis ex ad aliquid repudiandae? Excepturi, doloremque!</p>
+                <a href="#" class="text-blue-600">Lorem</a>
+            </article>
+
+            <article class="flex flex-col justify-center items-center gap-4">
+                <img class=" h-16 w-16 rounded-full bg-blue-200" src="#" alt="">
+            </img>
+                <h3 class="text-xl font-semibold">Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <strong class="font-medium text-blue-600">adipisicing</strong> elit. Tenetur autem cumque sed et <strong class="font-medium text-blue-600">adipisicing</strong> ex ad aliquid repudiandae? Excepturi, doloremque!</p>
+                <a href="#" class="text-blue-600">Lorem</a>
+            </article>
+
+            <article class="flex flex-col justify-center items-center gap-4">
+                <img class=" h-16 w-16 rounded-full bg-blue-200" src="#" alt="">
+            </img>
+                <h3 class="text-xl font-semibold">Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur autem cumque sed et perspiciatis ex ad aliquid repudiandae? Excepturi, doloremque!</p>
+                <a href="#" class="text-blue-600">Lorem</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 flex p-12 flex-col mt-20 gap-8 items-center justify-center">
+        <span class="text-2xl text-gray-400 font-semibold">Contactez-moi</span>
+        <form class="grid gap-4 grid-cols-2">
+            <input type="text" placeholder="Prénom" class="border-1 border-gray-500 hover:border-white invalid:text-red-600 bg-gray-600 invalid:text-blue-600  text-gray-200 py-2 px-4 rounded-lg">
+            <input type="text" placeholder="Nom" class="border-1 text-gray-200 border-gray-500 hover:border-white invalid:text-red-600 bg-gray-600 invalid:text-blue-600 py-2 px-4 rounded-lg">
+            <input type="email" placeholder="john.doe@gmail.com" class="text-gray-200 justify-center border-1 border-gray-500 hover:border-white invalid:text-red-600 bg-gray-600 invalid:text-blue-600 py-8 px-4 rounded-lg">
+
+            <textarea placeholder="Votre Message" class=" text-gray-200 border-1 border-gray-500 hover:border-white invalid:text-red-600 bg-gray-600 invalid:text-blue-600 py-8 px-4 rounded-lg"></textarea>
+            <input class="bg-blue-600 text-white col-span-full  font-bold focus:bg-blue-500 py-2 px-0 rounded-lg" type="submit" value="Envoyer">
+        </form>
+    </footer>
+</body>
+</html>
