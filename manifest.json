@@ -1,0 +1,16 @@
+{
+    "short_name": "Aibnb",
+    "name": "Aibnb | Home page",
+    "icons": [
+    {
+    "src": "2111320.png",
+    "type": "image/png",
+    "sizes": "192x192"
+    }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffffff"
+}

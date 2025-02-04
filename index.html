@@ -12,6 +12,8 @@
 
     <link rel="shortcut icon" sizes="76x76" type="image/png" href="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Favicons/original/0d189acb-3f82-4b2c-b95f-ad1d6a803d13.png?im_w=240">
 
+    <link rel="manifest" href="/manifest.json">
+
     <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
     <script defer src="./scripts/analytics.js"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4" defer></script>
@@ -105,7 +107,7 @@
     <!-- Main -->
     <main class="w-full max-w-[1760px] mx-auto px-8">
         <!-- Navigation Main -->
-        <div class="flex justify-start items-center sticky top-46 bg-white z-10">
+        <div class="flex justify-start items-center bg-white z-10">
             <nav class="py-4 flex gap-6 place-content-between items-start text-center flex justify-start items-start overflow-hidden">
                 <a class="flex flex-col gap-2 items-center justify-center text-gray-700 border-b-2 border-gray-700 py-3 text-gray-500" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="Image navigation"><span class="">Avec&nbsp;vue</span></a>
                 <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png" alt="Image navigation"><span>Iconiques</span></a>
@@ -1418,4 +1420,12 @@
         </section>
     </footer>
 </body>
+    <script>
+        window.addEventListener("load", () => {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("service-worker.js");
+                }
+            });
+
+    </script>
 </html>
