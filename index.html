@@ -17,6 +17,9 @@
     <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
     <script defer src="./scripts/analytics.js"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +41,7 @@
 
 <body>
     <!-- Header -->
-<header class="border-b-1 border-gray-200 sticky top-0 bg-white z-10">
+    <header class="border-b-1 border-gray-200 sticky top-0 bg-white z-10">
         <!-- Logo + Nav -->
         <div class="w-full max-w-[1760px] mx-auto flex flex-col px-8">
             <div class="md:grid grid-rows-[auto, 1fr] grid-cols-[2fr_1fr] hidden lg:flex justify-between pt-6 items-center">
@@ -47,7 +50,7 @@
                     </svg>
                 </a>
 
-                <nav class="flex col-span-2 gap-8 text-[#222222] items-center order-1 lg:order-0 justify-center">
+                <nav aria-label="" class="flex col-span-2 gap-8 text-[#222222] items-center order-1 lg:order-0 justify-center">
                     <a class="font-bold rounded-full bg-white p-2 text-lg" href="#">Logements</a>
                     <a class="bg-white hover:bg-gray-100 text-gray-500 hover:text-gray-700 rounded-full p-2 px-4 text-lg" href="#">Expériences</a>
                 </nav>
@@ -107,24 +110,24 @@
         <!-- Navigation Main -->
         <div class="flex justify-start items-center bg-white z-10">
             <nav class="py-4 flex gap-6 place-content-between items-start text-center flex justify-start items-start overflow-hidden">
-                <a class="flex flex-col gap-2 items-center justify-center text-gray-700 border-b-2 border-gray-700 py-3 text-gray-500" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="Image navigation"><span class="">Avec&nbsp;vue</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png" alt="Image navigation"><span>Iconiques</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg" alt="Image navigation"><span>Cabanes&nbsp;perchées</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt="Image navigation"><span>Avec&nbsp;vue</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Image navigation"><span>Piscines</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" alt="Image navigation"><span>Au&nbsp;pied&nbsp;des&nbsp;pistes</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="Image navigation"><span>Fermes</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="Image navigation"><span>Cabanes</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="Image navigation"><span>Wow&nbsp;!</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" alt="Image navigation"><span>Dômes</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg" alt="Image navigation"><span>Maisons&nbsp;troglodytes</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/c027ff1a-b89c-4331-ae04-f8dee1cdc287.jpg" alt="Image navigation"><span>Sur&nbsp;l'eau</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg" alt="Image navigation"><span>Tiny&nbsp;houses</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="Image navigation"><span>Bord&nbsp;de&nbsp;mer</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="Image navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="Image navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="Image navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
-                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="Image navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center text-gray-700 border-b-2 border-gray-700 py-3 text-gray-500" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt=" navigation"><span class="">Avec&nbsp;vue</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png" alt=" navigation"><span>Iconiques</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg" alt=" navigation"><span>Cabanes&nbsp;perchées</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt=" navigation"><span>Avec&nbsp;vue</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt=" navigation"><span>Piscines</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" alt=" navigation"><span>Au&nbsp;pied&nbsp;des&nbsp;pistes</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt=" navigation"><span>Fermes</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt=" navigation"><span>Cabanes</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt=" navigation"><span>Wow&nbsp;!</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" alt=" navigation"><span>Dômes</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg" alt=" navigation"><span>Maisons&nbsp;troglodytes</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/c027ff1a-b89c-4331-ae04-f8dee1cdc287.jpg" alt=" navigation"><span>Sur&nbsp;l'eau</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg" alt=" navigation"><span>Tiny&nbsp;houses</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt=" navigation"><span>Bord&nbsp;de&nbsp;mer</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt=" navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt=" navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt=" navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
+                <a class="flex flex-col gap-2 items-center justify-center hover:opacity-100 opacity-75 hover:border-b-2 hover:border-black border-white border-b-2 py-3 text-black" href="#"><img class="w-6 h-auto" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt=" navigation"><span>Bord&nbsp;de&nbsp;lac</span></a>
             </nav>
             <div class="flex gap-4 bg-white">
                 <button class="md:block hidden px-4 py-2 border-gray-400 text-gray-700 hover:scale-[1.06] hover:shadow-md transition duration-150 self-center rounded-full border-1"><i class="fa-solid fa-chevron-right"></i></button>
@@ -144,16 +147,17 @@
                         <span class="absolute top-3 left-3 font-semibold bg-white w-70% py-1 px-2 rounded-full truncate whitespace-nowrap overflow-hidden text-ellipsis">
                             Coup de cœur voyageurs</span>
                         
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/05d2f8c5-4608-416e-afef-c97c149297b9.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/05d2f8c5-4608-416e-afef-c97c149297b9.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -175,16 +179,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/0e762050-29bf-49d0-8c9e-1e1bf2e12cbc.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/0e762050-29bf-49d0-8c9e-1e1bf2e12cbc.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -206,16 +211,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/20cf4ce8-614b-4724-b317-2d8dcca0d5ed.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/20cf4ce8-614b-4724-b317-2d8dcca0d5ed.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -237,16 +243,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/068e80af-590f-437e-819e-9aa2c15ef586.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/068e80af-590f-437e-819e-9aa2c15ef586.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -268,16 +275,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/b49bcc29-9ff5-4af3-b28f-8a9d93f132d5.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/b49bcc29-9ff5-4af3-b28f-8a9d93f132d5.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -299,203 +307,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/8256356e-b158-4435-ba21-3e30d45281c3.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e6025961-18c4-45c1-856b-c026975a61b1.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-48586841/original/bf213978-8aa7-47a7-9d56-a78953cd5470.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/363ce151-ab1f-4ae1-a03e-94cb9267d1e9.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/7fecea02-5cdf-4fce-b7f1-674d3e5b564e.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/caba5c3a-50a5-4a4b-ab3d-ee862c3b178c.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
-                    </figure>
-                    <footer class="flex flex-col">
-                        <div class="flex justify-between">
-                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <span>5,0</span>
-                            </div>
-                        </div>
-                        <span class="text-gray-500">Hôte : Mathieu</span>
-                        <span class="text-gray-500">2-7 févr.</span>
-                        <span>142 € par nuit</span>
-                    </footer>
-                </a>
-            </article>
-
-            <article class="flex">
-                <a href="#" class=" flex flex-col group gap-2">
-                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
-                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
-
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
-
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
-                        </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/9abb14b4-882f-47dc-8c11-51427c657ff0.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/8256356e-b158-4435-ba21-3e30d45281c3.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -518,16 +340,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/44a95168-68ed-48d4-802f-ab8e813c1a6b.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e6025961-18c4-45c1-856b-c026975a61b1.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -549,16 +372,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/6f0245c1-0445-44ad-9435-7ad733965a9c.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-48586841/original/bf213978-8aa7-47a7-9d56-a78953cd5470.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -580,16 +404,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/cf027506-a646-49ac-988a-d74de6b06b31.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/363ce151-ab1f-4ae1-a03e-94cb9267d1e9.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -611,16 +436,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/0b9181e8-3de1-47e8-9331-da988f90d4bf.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/7fecea02-5cdf-4fce-b7f1-674d3e5b564e.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -642,16 +468,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/f6f6ce7b-d51f-448b-a497-95ed07e39ac7.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/caba5c3a-50a5-4a4b-ab3d-ee862c3b178c.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -673,16 +500,50 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e24c3cbd-5ee7-492a-889d-c8989c2608d0.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/9abb14b4-882f-47dc-8c11-51427c657ff0.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/44a95168-68ed-48d4-802f-ab8e813c1a6b.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -704,16 +565,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/ad09b044-2174-41ea-8a5f-158b8e6f2aa7.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/6f0245c1-0445-44ad-9435-7ad733965a9c.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -735,16 +597,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjkxNzUyOTM%3D/original/445ee912-dc30-4636-b7a7-58562b794ae0.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/cf027506-a646-49ac-988a-d74de6b06b31.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -766,16 +629,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/32321727/fbecd4f5_original.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/0b9181e8-3de1-47e8-9331-da988f90d4bf.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -797,16 +661,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-669467282719318433/original/4409d515-2d47-42cd-af12-40a7e195628b.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/f6f6ce7b-d51f-448b-a497-95ed07e39ac7.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -828,16 +693,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzUwODU5MDI%3D/original/3a711e62-8383-4791-88e6-872892a8d792.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e24c3cbd-5ee7-492a-889d-c8989c2608d0.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -859,16 +725,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/5dd9a53a-f949-48c1-808e-81749450c4db.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/ad09b044-2174-41ea-8a5f-158b8e6f2aa7.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -890,16 +757,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e7d338c4-7bbd-42c3-8f8a-28d7d1aacd50.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MjkxNzUyOTM%3D/original/445ee912-dc30-4636-b7a7-58562b794ae0.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -921,16 +789,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDg4MzgwNjc%3D/original/d2b161c3-b74b-4b18-8b74-edbc97a3ae12.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/32321727/fbecd4f5_original.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -952,16 +821,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTgxNjgxMzQ2MTI5NTU5NjM4/original/d9e104e4-4dda-41c7-bcd0-fcb1c540c1af.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-669467282719318433/original/4409d515-2d47-42cd-af12-40a7e195628b.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -983,16 +853,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDg0ODIyOTg%3D/original/34a40a89-cb01-4b08-a397-33eb773d104f.png?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzUwODU5MDI%3D/original/3a711e62-8383-4791-88e6-872892a8d792.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1014,16 +885,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-875917088457161631/original/1332fc5a-6c62-4157-8d69-8a48303d36c4.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/5dd9a53a-f949-48c1-808e-81749450c4db.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1045,16 +917,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-584601397197520879/original/d718172e-8489-45ab-bdde-93db5b637c6a.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/e7d338c4-7bbd-42c3-8f8a-28d7d1aacd50.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1076,16 +949,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDQ2NzM0ODk%3D/original/ab6c4825-9068-41d5-bd06-bd1703bb73c1.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDg4MzgwNjc%3D/original/d2b161c3-b74b-4b18-8b74-edbc97a3ae12.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1107,16 +981,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/925d343a-e4ba-4a0e-b229-150a1dccdbbc.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTgxNjgxMzQ2MTI5NTU5NjM4/original/d9e104e4-4dda-41c7-bcd0-fcb1c540c1af.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1138,16 +1013,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-833261472222936218/original/2e7ea7ac-dd2d-47f8-94b7-e2f502289720.jpeg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDg0ODIyOTg%3D/original/34a40a89-cb01-4b08-a397-33eb773d104f.png?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1169,16 +1045,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/3890b9f0-670a-49b1-90f1-fdf4f23ab4d6.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-875917088457161631/original/1332fc5a-6c62-4157-8d69-8a48303d36c4.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1200,16 +1077,17 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/390eddf0-85a3-4f89-bfe0-85893f393cfc.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/miso/Hosting-584601397197520879/original/d718172e-8489-45ab-bdde-93db5b637c6a.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1231,16 +1109,177 @@
                     <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
                         <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
 
-                        <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-28 right-4 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
 
-                        <nav class="absolute bottom-4 right-27 flex gap-2 items-center">
-                            <div class="w-2 bg-white h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-2 bg-gray-400 h-2 rounded-full"></div>
-                            <div class="w-1 bg-gray-400 h-1 rounded-full"></div>
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
                         </nav>
-                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/a835b411-ffee-4159-a372-4f02689dbad0.jpg?im_w=720&im_format=avif" alt="Image de !!! Airbnb">
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDQ2NzM0ODk%3D/original/ab6c4825-9068-41d5-bd06-bd1703bb73c1.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/925d343a-e4ba-4a0e-b229-150a1dccdbbc.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-833261472222936218/original/2e7ea7ac-dd2d-47f8-94b7-e2f502289720.jpeg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/3890b9f0-670a-49b1-90f1-fdf4f23ab4d6.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/390eddf0-85a3-4f89-bfe0-85893f393cfc.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
+                    </figure>
+                    <footer class="flex flex-col">
+                        <div class="flex justify-between">
+                            <h3 class="font-semibold">Sousset-les-Pins, France</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                        <span class="text-gray-500">Hôte : Mathieu</span>
+                        <span class="text-gray-500">2-7 févr.</span>
+                        <span>142 € par nuit</span>
+                    </footer>
+                </a>
+            </article>
+
+            <article class="flex">
+                <a href="#" class=" flex flex-col group gap-2">
+                    <figure class="rounded-2xl overflow-hidden relative aspect-[1/1]">
+                        <i class="fa-regular fa-heart absolute text-white top-5 right-4 text-xl transition duration-150 hover:scale-[1.06]"></i>
+
+                                                <button class="absolute opacity-0 group-hover:opacity-100 px-3 py-1 text-gray-700 top-1/2 right-6 -translate-y-1/2 hover:scale-[1.06] bg-white transition duration-150 self-center rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
+
+                        <nav aria-label="Navigation rapide"
+                        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 items-center">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                            <div class="w-1 h-1 bg-gray-400 rounded-full"></div>
+                        </nav>
+                        <img class="object-cover h-full w-full" src="https://a0.muscache.com/im/pictures/a835b411-ffee-4159-a372-4f02689dbad0.jpg?im_w=720&im_format=avif" alt=" de !!! Airbnb">
                     </figure>
                     <footer class="flex flex-col">
                         <div class="flex justify-between">
@@ -1270,7 +1309,7 @@
         <div class="w-full max-w-[1760px] mx-auto border-b-1 border-gray-300">
             <div class="w-full 2xl:max-w-[1160px] max-w-[1760px] mx-auto px-8">
                 <div class="pt-12 flex flex-col gap-6">
-                    <h1 class="font-semibold text-xl">Des&nbsp;idées&nbsp;pour&nbsp;vos&nbsp;prochaines&nbsp;escapades</h1>
+                    <h1 class="font-semibold text-xl">Des idées pour vos prochaines escapades</h1>
 
                     <!-- Navigations -->
                     <nav class="flex gap-6 border-b-1 border-gray-300 overflow-hidden">
